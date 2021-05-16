@@ -1,0 +1,181 @@
+    @import url(./fonts.css);
+    .header-area .main-menu .navbar .navbar-brand {
+        font-weight: 500;
+        padding: 0.5rem;
+        color: black;
+        padding: 0 1rem 0 2rem;
+    }
+    
+    .header-area .main-menu .navbar-nav .nav-link {
+        font-weight: 500;
+        padding: 0.5rem;
+        color: black;
+    }
+    
+    .site-main .site-banner .site-title h3 {
+        font-size: 1.2rem;
+        padding-top: 15%;
+        font-weight: 100;
+        color: darkslategray;
+    }
+    
+    .site-main .site-banner .site-title .button {
+        background-color: rgb(74, 3, 155);
+        padding-top: 15%;
+        font-weight: 100;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        border-radius: 2px;
+    }
+    
+    .site-main .site-banner .site-title .button:hover {
+        background-color: rgb(2, 10, 17);
+    }
+    
+    .site-main .site-banner .site-title h4 {
+        padding-top: 1%;
+        font-weight: 150;
+    }
+    
+    .site-main .site-banner .site-title h3::after {
+        content: "";
+        height: 2px;
+        width: 18vw;
+        background: black;
+        margin-left: 5%;
+    }
+    
+    .site-main .site-banner .site-title h5 {
+        font-size: 1.5rem;
+        padding-top: 1%;
+        font-weight: 500;
+        color: #012c41;
+    }
+    
+    .site-main .about .site-banner2 .site-title2 h5 {
+        font-size: 1.5rem;
+        padding-top: 5%;
+        font-weight: 500;
+        margin-left: auto;
+        margin-right: auto;
+        width: 8em;
+        color: #012c41;
+    }
+    
+    .site-main .about .site-banner2 .site-title2 h5 {
+        font-size: 2rem;
+        padding-top: 1%;
+        font-weight: 500;
+        color: black;
+    }
+    
+    .site-main .about .site-banner2 .site-title2 h6 {
+        font-size: 1.2rem;
+        padding-top: 1%;
+        font-weight: 500;
+        color: #012c41;
+    }
+    
+    #education {
+        text-align: center;
+    }
+    
+    #fulledu h5 {
+        font-size: 25px;
+    }
+    
+    #fulledu {
+        text-align: center;
+    }
+    
+    #fulledu h6 {
+        font-size: 20px;
+    }
+    
+    #experience {
+        text-align: center;
+    }
+    
+    #about {
+        width: 400px;
+        border: 1px solid white;
+        animation: mymove 5s infinite;
+        text-align: center;
+    }
+    
+    @keyframes mymove {
+        50% {
+            border-bottom: 5px solid orange;
+        }
+    }
+    
+    @keyframes mymove2 {
+        50% {
+            border-bottom: 4px solid burlywood;
+        }
+    }
+    
+    #des {
+        background-color: white;
+        border: 1px solid white;
+        animation: mymove3 5s;
+    }
+    
+    @keyframes mymove3 {
+        from {
+            margin-right: auto;
+            width: 100%;
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    
+    #ski {
+        background-color: white;
+        border: 1px solid white;
+        animation: mymove4 5s;
+    }
+    
+    #education {
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    #int {
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    #experience {
+        background-color: white;
+        border: 1px solid white;
+    }
+    
+    @keyframes mymove3 {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+    
+    .ico {
+        width: 100px;
+        height: 100px;
+        transition: width 2s, height 4s;
+    }
+    
+    .ico:hover {
+        width: 300px;
+        height: 300px;
+    }
